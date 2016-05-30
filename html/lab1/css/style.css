@@ -4,10 +4,10 @@ body {
 }
 
 .wrapper {
-    padding: 50px;
-    width: 33%;
-    margin: 0 auto;
-    background-color: white;
+  padding: 50px;
+  width: 33%;
+  margin: 0 auto;
+  background-color: white;
 }
 
 h1 {
@@ -26,10 +26,11 @@ h1 {
 }
 
 #contacts .info {
+  margin:20px;
   text-align: left;
   font-size: 22px;
 }
 
 section {
-border-bottom:1px solid #313030;
+  border-bottom:1px solid #313030;
 }
