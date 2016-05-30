@@ -20,18 +20,16 @@ h1 {
 }
 
 .info {
+  margin-left: 20px;
   text-align: left;
   font-size: 22px;
 }
 
-.br {
-  margin-top: -20px;
-  font-size: 22px;
+#contacts .info {
   text-align: left;
+  font-size: 22px;
 }
 
-.line-separator{
-height:1px;
-background:#717171;
+section {
 border-bottom:1px solid #313030;
 }
