@@ -1,32 +1,83 @@
 body {
   background: #f9f9f9;
-  ;
+  font-family: "Tahoma";
 }
 
-.menu:after {
-  content: "";
-  clear: both;
-  display: block;
-}
 .wrapper {
   margin: 0 auto;
-  padding: 50px;
-  width: 1150px;
-  height: 900px;
+  padding: 0 50px;
+  width: 1000px;
   background: white;
 }
+.logo {
+  padding-top: 50px;
+}
+
 .menu {
-  margin: 40px 0px;
+  position: relative;
+  overflow: hidden;
+  margin: 40px 0;
   background-color: #515151;
-  width: 1150px;
+  width: 1000px;
 }
 .menu li {
-  float: left;
-  padding: 15px;
-  width: 120px;
-  text-align: center;
-  color: white;
   font-size: 15px;
-  font-family: "Tahoma";
-  line-height: 1.2;
+}
+.menu a {
+  float: left;
+  padding: 0 40px;
+  list-style: none;
+  display: block;
+  text-decoration: none;
+  color: white;
+  line-height: 40px;
+}
+.menu a:hover {
+  background: #4a4a4a;
+}
+.content {
+  position: relative;
+  overflow: hidden;
+}
+.sidebar {
+  float: left;
+  width: 250px;
+}
+.sidebar_menu {
+  border: 1px solid #c8c8c8;
+}
+.sidebar_menu a {
+padding-left: 20px;
+line-height: 40px;
+color: #656363
+list-style: none;
+text-decoration: none;
+}
+.sidebar_menu a:hover {
+  background-color: #f9f9f9
+}
+.image {
+  float: right;
+  width: 680px;
+}
+.footer {
+  padding: 50px 0;
+}
+.footer-menu {
+  position: relative;
+  overflow: hidden;
+  background-color: #515151;
+  width: 1000px;
+}
+.footer-menu li a {
+  float: left;
+  padding: 0 40px;
+  list-style: none;
+  display: block;
+  text-decoration: none;
+  color: white;
+  line-height: 40px;
+}
+.footer-menu li:hover {
+
 }
