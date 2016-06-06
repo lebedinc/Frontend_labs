@@ -1,0 +1,37 @@
+.wrapper {
+  margin: 0 auto;
+  padding: 50px;
+  width: 1150px;
+  height: 900px;
+  background-color: white;
+}
+
+.logo {
+  color: #333333;
+  font-family: "Tahoma";
+  font-size: 36px;
+  line-height: 1.2;
+}
+.test {
+  content: "";
+  clear: both;
+  display: block;
+}
+.menu {
+  margin: 40px 0px;
+  background-color: black;
+}
+.menu li {
+  float: left;
+  padding: 15px;
+  width: 120px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-family: "Tahoma";
+  line-height: 1.2;
+}
+.menu li:hover {
+  border: 1px solid #838383;
+  background: #373737;
+}
