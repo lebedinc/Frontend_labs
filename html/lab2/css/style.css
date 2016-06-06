@@ -1,25 +1,24 @@
+body {
+  background: #f9f9f9;
+  ;
+}
+
+.menu:after {
+  content: "";
+  clear: both;
+  display: block;
+}
 .wrapper {
   margin: 0 auto;
   padding: 50px;
   width: 1150px;
   height: 900px;
-  background-color: white;
-}
-
-.logo {
-  color: #333333;
-  font-family: "Tahoma";
-  font-size: 36px;
-  line-height: 1.2;
-}
-.test {
-  content: "";
-  clear: both;
-  display: block;
+  background: white;
 }
 .menu {
   margin: 40px 0px;
-  background-color: black;
+  background-color: #515151;
+  width: 1150px;
 }
 .menu li {
   float: left;
@@ -30,8 +29,4 @@
   font-size: 15px;
   font-family: "Tahoma";
   line-height: 1.2;
-}
-.menu li:hover {
-  border: 1px solid #838383;
-  background: #373737;
 }
