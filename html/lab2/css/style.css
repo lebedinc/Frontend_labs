@@ -74,9 +74,9 @@ body {
     text-align: center;
 }
 .text_content {
-    padding: 30px 22px 0 20;
+    padding: 30px 22px 0 20px;
     float: right;
-    color: #2c2c2c2;
+    color: #333333;
     font-size: 13px;
     line-height: 21px;
 }
