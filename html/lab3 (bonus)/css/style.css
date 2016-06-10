@@ -1,21 +1,40 @@
-.wrapper {
-  margin: 0 auto;
-  width: 960px;
 
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0 71px;
+  width: 815px;
+  background-image: url('../img/background.jpg');
 }
 
-.logo {
+.logo  {
+float: left;
+width: 265px;
 
 }
 
 .contacts {
+  padding-top: 100px;
   float: right;
-  padding-right: 85px;
+  color: white;
+  font-family: "Tahoma";
+  font-size: 10px;
 }
+
 
 .content {
 
 }
+.figure {
+    background: #5f6a72; /* Цвет фона */
+    padding: 10px; /* Поля вокруг */
+    display: block; /* Блочный элемент */
+    width: 150px; /* Ширина */
+    float: left; /* Блоки выстраиваются по горизонтали */
+    margin: 0 10px 10px 0; /* Отступы */
+    text-align: center; /* Выравнивание по центру */
+   }
 
 .footer {
 
